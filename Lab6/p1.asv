@@ -1,0 +1,6 @@
+function [y]=DTLTI(a,b,x,Ny)
+y=zeros(Ny,1);
+for ii=1:Ny
+    for jj=1:length()
+end
+end

@@ -1,0 +1,11 @@
+M=5+mod(22103132,4);
+
+for ii=-pi:0.001:pi
+    h(ii)=(1-exp((M+1)*(1+j*ii)))/(1-exp);
+end
+
+w=-pi:0.001:pi;
+plot(w,h);
+title('Frequency Response');
+xlabel('\omega');
+ylabel('H(e^(j\omega))');
